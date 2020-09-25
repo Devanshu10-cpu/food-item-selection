@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int x;
+printf("enter a number between 1 to 5");
+scanf("%d",&x);
+switch(x)
+{
+case1:
+printf("1.food item - pizza\nprice-rs239");
+break;
+case2:
+printf("2.food item - burger\nprice - rs129);
+break;
+case3:
+printf("3.food item - pasta\nprice - rs179);
+break;
+case4:
+printf("4.food item - french fries\nprice -rs99);
+break;
+case5:
+printf("5.food item - sandwich\nprice -rs149);
+break;
+default:
+printf("choice other than 1,2,3,4,5");
+}
+getch();
+}
